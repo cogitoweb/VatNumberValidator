@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Symfony\\Component\\Validator\\Constraints\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-soap": "*",
+        "symfony/validator": "^4.2"
+    },
+    "require-dev": {
+        "php-intl": "*",
+        "phpunit/phpunit": "^7.5"
+    }
+}
